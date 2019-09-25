@@ -71,3 +71,12 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/linux,macos,windows
+
+# Unused Bootstrap files
+bootstrap.css
+bootstrap.css.map
+bootstrap.min.css.map
+
+bootstrap.bundle.js
+bootstrap.bundle.js.map
+bootstrap.bundle.min.js.map
