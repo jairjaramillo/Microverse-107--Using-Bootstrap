@@ -1,3 +1,7 @@
+a {
+  color: black;
+}
+
 .no-pad {
   padding-left: 0;
   padding-right: 0;
@@ -13,6 +17,14 @@
   height: 80px;
   background-position: top center;
   background-size: cover;
+}
+
+.author-pic {
+  height: 60px;
+  width: 60px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .pic-category {
