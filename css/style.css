@@ -9,6 +9,12 @@
   background-size: cover;
 }
 
+.side-pic {
+  height: 80px;
+  background-position: top center;
+  background-size: cover;
+}
+
 .pic-category {
   color: red;
 }
