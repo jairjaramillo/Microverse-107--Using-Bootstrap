@@ -3,6 +3,14 @@
   padding-right: 0;
 }
 
+.featured-pic {
+  height: 200px;
+}
+
+.pic-category {
+  color: red;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 100%;
@@ -17,12 +25,12 @@
 
 @media (min-width: 992px) {
   .container {
-    max-width: 992px;
+    max-width: 1100px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1310px;
   }
 }
