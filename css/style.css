@@ -3,8 +3,9 @@
   padding-right: 0;
 }
 
-.featured-pic {
+.title-pic {
   height: 200px;
+  background-position: center;
 }
 
 .pic-category {
