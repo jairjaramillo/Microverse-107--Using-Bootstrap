@@ -5,11 +5,16 @@
 
 .title-pic {
   height: 200px;
-  background-position: center;
+  background-position: top center;
+  background-size: cover;
 }
 
 .pic-category {
   color: red;
+}
+
+.big-title {
+  height: 400px;
 }
 
 @media (min-width: 576px) {
