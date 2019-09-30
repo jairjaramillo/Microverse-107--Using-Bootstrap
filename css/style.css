@@ -2,6 +2,13 @@ a {
   color: black;
 }
 
+.logo-pic {
+  height: 100px;
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .no-pad {
   padding-left: 0;
   padding-right: 0;
