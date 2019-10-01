@@ -25,6 +25,19 @@ a {
   background-size: cover;
 }
 
+.normal-pic {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.mini-pic {
+  height: 100px;
+  margin-bottom: 8px;
+  background-position: center;
+  background-size: cover;
+}
+
 .side-pic {
   height: 80px;
   background-position: top center;
