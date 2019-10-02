@@ -129,6 +129,8 @@ h4 {
 
 /* #endregion */
 
+/* #region mobile */
+
 .logo-pic {
   height: 20px;
   width: 131px;
@@ -198,9 +200,51 @@ h4 {
   margin-top: 5px;
 }
 
+
+.subscribe-pic,
+.newsletter-pic {
+  height: 350px;
+  background-position: center;
+}
+
+.newsletter-pic {
+  height: 200px;
+  background-size: cover;
+}
+
+.logo-red {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 236px;
+  height: 35px;
+}
+
+.credits-line {
+  border-right-style: solid;
+  border-width: 1px;
+  color: gray;
+  border-color: white;
+}
+
+.credits-line:nth-last-child() {
+  border-right-style: none;
+}
+
+/* #endregion */
+
 @media (min-width: 576px) {
   .container {
+    max-width: 95%;
+  }
+
+  .full-width {
     max-width: 100%;
+  }
+
+  .side-pad,
+  .side-pad-right {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .side-pad {
@@ -211,6 +255,11 @@ h4 {
   .side-pad-right {
     padding-right: 15px;
   }
+
+  .credits-line {
+    border-color: gray;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -219,9 +268,42 @@ h4 {
     padding-left: 0;
   }
 
+  .header {
+    margin-bottom: 0;
+  }
+
+  .header-hack {
+  }
+
+  .nav-brand {
+    padding-top: -20px;
+    margin-top: -30px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-color: rgb(184, 184, 184);
+    border-width: 2px;
+    margin: 10px;
+  }
+
+  .nav-brand-text {
+    font-size: 1.2rem;
+  }
+
+  .credits-line {
+    border-color: rgb(184, 184, 184);
+  }
 
   .container {
     max-width: 100%;
+  }
+
+  .input-group-prepend.bg-light,
+  .input-group-text,
+  .input-group,
+  .form-inline {
+    border-radius: 0;
+    border-style: none;
+    background: white;
   }
 
   .logo-pic {
@@ -240,17 +322,15 @@ h4 {
 
   .mini-pic {
     height: 100px;
+  }
+
+  .newsletter-pic {
+    height: 350px;
+  }
+
+  .mini-pic {
+    height: 100px;
     margin-bottom: 8px;
-  }
-
-  .subscribe-pic,
-  .newsletter-pic {
-    height: 500px;
-    background-position: center;
-  }
-
-  .newsletter-pic {
-    background-size: cover;
   }
 
   .big-title {
