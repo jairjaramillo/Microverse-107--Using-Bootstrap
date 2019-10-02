@@ -215,7 +215,7 @@ h4 {
   .logo-pic {
     height: 100px;
     background-size: 70%;
-
+    background-position: center;
   }
 
   .title-pic {
