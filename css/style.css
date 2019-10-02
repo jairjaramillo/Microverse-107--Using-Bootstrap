@@ -2,7 +2,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 a {
@@ -131,7 +131,7 @@ h4 {
 }
 
 .header {
-  font-size: .9rem;
+  font-size: 0.9rem;
   padding-left: 10px;
   margin-bottom: 20px;
 }
@@ -192,7 +192,6 @@ h4 {
   margin-top: 5px;
 }
 
-
 .subscribe-pic,
 .newsletter-pic {
   height: 350px;
@@ -247,7 +246,6 @@ h4 {
   .credits-line {
     border-color: gray;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -262,7 +260,6 @@ h4 {
 
   .nav-brand {
     padding-top: -20px;
-    margin-top: -30px;
     padding-bottom: 10px;
     border-bottom-style: solid;
     border-color: rgb(184, 184, 184);
@@ -307,15 +304,12 @@ h4 {
 
   .mini-pic {
     height: 100px;
+    height: 100px;
+    margin-bottom: 8px;
   }
 
   .newsletter-pic {
     height: 350px;
-  }
-
-  .mini-pic {
-    height: 100px;
-    margin-bottom: 8px;
   }
 
   .big-title {
