@@ -111,9 +111,6 @@ h4 {
 }
 
 .icon {
-  /* position: relative; */
-  /* bottom: -8px; */
-  /* display: inline-block; */
   height: 30px;
   width: 30px;
   background-image: url('../img/icon.svg');
@@ -229,10 +226,6 @@ h4 {
 
 @media (min-width: 576px) {
   .container {
-    max-width: 95%;
-  }
-
-  .full-width {
     max-width: 100%;
   }
 
