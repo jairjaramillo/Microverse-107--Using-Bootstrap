@@ -1,7 +1,7 @@
 /* #region global css */
 
 body {
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: .8rem;
 }
 
@@ -15,7 +15,7 @@ a:hover {
 }
 
 .container {
-max-width: 96%;
+  max-width: 96%;
 }
 
 .full-width {
@@ -186,6 +186,18 @@ h4 {
   min-height: 200px;
 }
 
+.tt-sub {
+  font-size: 1rem;
+}
+
+.btn-brand {
+  background-color: #f72210;
+  color: white;
+  border-radius: 0;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 100%;
@@ -233,7 +245,12 @@ h4 {
 
   .subscribe-pic,
   .newsletter-pic {
-    height: 400px;
+    height: 500px;
+    background-position: center;
+  }
+
+  .newsletter-pic {
+    background-size: cover;
   }
 
   .big-title {
