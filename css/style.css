@@ -154,9 +154,23 @@ h4 {
   .container {
     max-width: 100%;
   }
+
+  .side-pad {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .side-pad-right {
+    padding-right: 15px;
+  }
 }
 
 @media (min-width: 768px) {
+  .no-pad2 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
 
   .container {
     max-width: 100%;
