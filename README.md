@@ -36,14 +36,14 @@
   <h3 align="center">Microverse 107: Using Bootstrap</h3>
 
   <p align="center">
-    This is the 7th project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org)
-    <br />
-    <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap">Assignment</a>
+    This is the 7th project of the Main HTML/CSS curriculum at Microverse
     <br />
     <br />
     <a href="https://jairjy.github.io/Microverse-107-Using-Bootstrap"><strong>Final Result</strong></a>
     ·
     <a href="https://www.newsweek.com/">Reference</a>
+    ·
+    <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap">Assignment</a>
   </p>
 </p>
 
@@ -53,6 +53,10 @@
 [![Product Name Screen Shot][product-screenshot]](https://jairjy.github.io/Microverse-107-Using-Bootstrap)
 
 In this project, you’ll get a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it – Newsweek.
+
+* #### [Assignment description](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)	
+* #### [The final result](https://jairjy.github.io/Microverse-107-Using-Bootstrap/)	
+* #### [Source page](https://www.newsweek.com/)
 
 ### Built With
 
@@ -71,9 +75,7 @@ Jair Jaramillo:
 
 * [Github](https://github.com/jairjy)
 * [Twitter](https://twitter.com/jairjy)
-* jair.jaramillo (at) outlook.com
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+* [Mail](mailto://jair.jaramillo@outlook.com)
 
 Project Link: [https://github.com/jairjy/Microverse-107-Using-Bootstrap](https://github.com/jairjy/Microverse-107-Using-Bootstrap)
 
