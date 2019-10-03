@@ -17,14 +17,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -75,23 +67,9 @@ Jair Jaramillo:
 
 * [Github](https://github.com/jairjy)
 * [Twitter](https://twitter.com/jairjy)
-* [Mail](mailto://jair.jaramillo@outlook.com)
+* [Linkedin](https://linkedin.com/in/jairjy)
 
 Project Link: [https://github.com/jairjy/Microverse-107-Using-Bootstrap](https://github.com/jairjy/Microverse-107-Using-Bootstrap)
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/jairjy/Microverse-107-Using-Bootstrap/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/jairjy/Microverse-107-Using-Bootstrap/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/jairjy/Microverse-107-Using-Bootstrap/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/jairjy/Microverse-107-Using-Bootstrap/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/jairjy/Microverse-107-Using-Bootstrap/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/jairjy
 [product-screenshot]: img/mockup.png
