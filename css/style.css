@@ -337,7 +337,7 @@ h4 {
     scrollbar-width: 1px;
     min-height: 1646px;
     max-height: 100%;
-    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
     -ms-overflow-style: none;
   }
 
