@@ -337,9 +337,6 @@ h4 {
     scrollbar-width: 1px;
     min-height: 1646px;
     max-height: 100%;
-  }
-
-  .over-hack {
     overflow: -moz-scrollbars-none;
     -ms-overflow-style: none;
   }
@@ -350,7 +347,7 @@ h4 {
 
   .s-row {
     margin-top: 10px;
-    padding-top:20px;
+    padding-top: 20px;
     border-top-style: solid;
     border-color: #d6d6d6;
     border-width: 2px;
