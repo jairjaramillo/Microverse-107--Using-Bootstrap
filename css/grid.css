@@ -1,0 +1,52 @@
+body,
+header,
+nav,
+main,
+article,
+title,
+section,
+footer,
+div,
+span,
+form,
+a {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: minmax(10px, auto);
+  gap: 5px;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.body {
+  grid-template-rows: repeat(3, minmax(100px, auto));
+}
+
+.header {
+  grid-template-rows: repeat(2, auto);
+}
+
+.header-title {
+  grid-template-columns: 2fr 4fr 1fr 1fr;
+  background: rgb(201, 49, 49);
+}
+
+.header-navbar {
+  grid-template-columns: repeat(11, auto);
+}
+
+.main {
+  grid-template-rows: repeat(11, auto);
+}
+
+.main-top {
+  grid-template-columns: 2fr 3fr 2fr;
+}
+
+.header-menu {
+  display: none;
+}
+
+.top-left {
+  grid-template-rows: repeat(4, auto);
+}
