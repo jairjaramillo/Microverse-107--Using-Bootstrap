@@ -45,3 +45,8 @@
   min-height: 60px;
   background-size: contain;
 }
+
+.subscribe>.picture,
+.newsletter>.picture {
+  height: 250px;
+}
