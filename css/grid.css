@@ -13,40 +13,97 @@ a {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: minmax(10px, auto);
-  gap: 5px;
+  gap: 10px;
   justify-content: space-between;
   align-content: flex-start;
 }
 
-.body {
-  grid-template-rows: repeat(3, minmax(100px, auto));
+.picture {
+  grid-template-columns: auto;
+  align-content: flex-end;
 }
 
-.header {
-  grid-template-rows: repeat(2, auto);
+.fancy-title {
+  grid-template-columns: 30px auto;
+  justify-content: center;
 }
 
 .header-title {
   grid-template-columns: 2fr 4fr 1fr 1fr;
-  background: rgb(201, 49, 49);
 }
 
 .header-navbar {
   grid-template-columns: repeat(11, auto);
 }
 
-.main {
-  grid-template-rows: repeat(11, auto);
-}
-
 .main-top {
   grid-template-columns: 2fr 3fr 2fr;
 }
 
-.header-menu {
-  display: none;
+.top-travel {
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.top-left {
-  grid-template-rows: repeat(4, auto);
+.top-travel>.section-title {
+  grid-column: span 2;
+}
+
+.top-more>.article,
+.top-latest>.article {
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: repeat(2, auto);
+}
+
+.top-more>.article>.picture,
+.top-latest>.article>.picture,
+.top-opinion>.article>.picture {
+  grid-row: span 2;
+}
+
+.top-opinion>.article {
+  grid-template-columns: 60px 1fr;
+  grid-template-rows: repeat(2, auto);
+}
+
+.main-magazine {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+}
+
+.main-magazine>.fancy-title {
+  grid-column: 2 / span 3;
+}
+
+.main-magazine>.article:nth-of-type(1) {
+  grid-template-rows: 1fr auto;
+  grid-column: 1;
+  grid-row: 1 / 3;
+}
+
+.main-magazine>.article:nth-of-type(8) {
+  grid-template-rows: 1fr auto;
+
+}
+
+.magazine-category {
+  grid-template-columns: repeat(2, auto);
+  justify-content: flex-start;
+}
+
+.main-editors {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.main-editors>.fancy-title {
+  grid-column: span 4;
+}
+
+.main-slideshow {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.main-slideshow>.fancy-title {
+  grid-column: span 3;
 }
